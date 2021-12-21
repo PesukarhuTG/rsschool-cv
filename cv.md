@@ -38,3 +38,25 @@ const positiveSum = arr => {
   return sum;
 }
 ```
+
+## Experience
+| Year         |    	                                         |
+| :----------- | :-----------------------------------------      |
+| since 2019   | Junior front-end developer (freelance)          | 
+| since 2018   | Web-designer/ Html-css editor	                 |   
+
+## Education
+| Courses:      |    	                                                                                                                                                  |
+| :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------      |
+| 2021-now  | ⭐ RSSchool: 'JavaScript/Front-end. Stage 0' - ***in progress***                                              	                                                  | 
+| 2021-now  | ⭐ Udemy: 'JavaScript + React' - ***in progress***                                         	                                                                  |  
+| 2020  	| Online education: Udemy ('JS course'), Netology ('HTML&CSS' course), HtmlAcademy ('Adaptive layout: grid or flex' course), GloAcademy (intensives on JS)|  
+| 2019          | RSSchool: 'JavaScript/Front-end. Stage 1' - *completed*                                             	                                                  |   
+| 2018/2019     | Online education: Htmlacademy.ru, codecademy.com, geekbrains.ru, skillbox.ru  	                                                                  |   
+| 2018  	| Level UP education center: 'Junior front-end developer'                         	                                                                  |
+| 2012  	| Petrozavodsk State University / Economics. Finance and Credit. Accounting                      	                                                                  |
+
+## Languages
+- **Russian** - native speaker
+- **English** - A2 (Pre-intermediate)
+- **Finnish** - A1
