@@ -3,3 +3,30 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+/* =================== HEADER ===================== */
+
+.header {
+    max-width: 980px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+.icon {
+    font-size: 22px;
+}
+
+.contacts {
+    margin: 20px 40px;
+}
