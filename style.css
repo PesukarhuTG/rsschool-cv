@@ -12,9 +12,7 @@ h1 {
     font-size: 22px;
 }
 
-/* =================== HEADER ===================== */
-
-.header {
+.container {
     max-width: 980px;
     margin: 40px auto;
     display: flex;
@@ -23,10 +21,18 @@ h1 {
     line-height: 2;
 }
 
+/* =================== HEADER ===================== */
+
 .icon {
     font-size: 22px;
 }
 
 .contacts {
-    margin: 20px 40px;
+    margin: 20px 40px 0;
+}
+
+/* =================== MAIN ===================== */
+
+.skills-list {
+    margin-left: 40px;
 }
