@@ -60,3 +60,16 @@ const positiveSum = arr => {
 - **Russian** - native speaker
 - **English** - A2 (Pre-intermediate)
 - **Finnish** - A1
+
+## Projects
+▶ [Movie's search](https://pesukarhutg.github.io/cinema-search/)<br>
+A project is based on API TMDB via Fetch
+
+▶ [Promo Mersedes-Benz](https://pesukarhutg.github.io/promo-mercedes/)<br>
+Skills: burger-menu, accordeon, smooth scroll, tabs, modal window with pure JS + jQuery library "Fancybox" for playing promo video in modal window on the same page
+
+▶ [Lamoda shop](https://pesukarhutg.github.io/shop-lomoda/)<br>
+Skills: good cards' catalog, cart + local storage for the cart and a customer location
+
+▶ [Apartments](https://pesukarhutg.github.io/apartments/)<br>
+It's a part of a big site. The main goal was to show interactive elements and understand how it works.
