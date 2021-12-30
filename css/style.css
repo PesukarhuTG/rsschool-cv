@@ -258,3 +258,94 @@ button {
 }
 
 /* ======== //code example ==========*/
+
+/*======== slider Projects ============*/
+.projects {
+  margin: 20px 0;
+}
+
+.slides-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 0 30px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-pic {
+  display: block;
+  width: 30%;
+}
+
+.project-pic img {
+  border-radius: 5px;
+}
+
+.project-description {
+  width: 60%;
+}
+
+.active {
+  display: flex;
+}
+
+.slider-btn {
+  display: block;
+  width: 80px;
+  height: 40px;
+  font-weight: 700;
+  background: transparent;
+  border: 1px solid var(--main-color);
+  border-radius: 30px;
+  color: var(--main-color);
+  outline: none;
+}
+
+.slider-btn:hover {
+  background: var(--main-color);
+  color: var(--contrast-color);
+}
+
+.slider-btn-prev {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.slider-btn-next {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+.pagination {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  list-style: none;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+}
+
+.active-circle {
+  background-color: var(--main-color);
+}
+
+/*========//slider ============*/
