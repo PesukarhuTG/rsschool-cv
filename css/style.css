@@ -9,6 +9,7 @@
 :root {
   --main-color: #fff700;
   --contrast-color: #252525;
+  --light-color: #fff;
 }
 
 html {
@@ -30,7 +31,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
+  color: var(--light-color);
   background: var(--contrast-color);
 }
 
@@ -54,7 +55,7 @@ h1 {
   top: 50%;
   width: 75%;
   height: 1px;
-  background: #fff;
+  background: var(--light-color);
   opacity: 0.2;
 }
 
@@ -66,7 +67,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--light-color);
   transition: color 0.5s;
   cursor: pointer;
 }
@@ -177,3 +178,66 @@ button {
   flex-basis: 80%;
 }
 /* =========//section Profile  ============= */
+
+/* =========section Skills ============= */
+
+.skills {
+  width: 35%;
+  margin-right: 30px;
+  border-right: 2px dotted var(--light-color);
+}
+
+.skills-set {
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 5px 7px;
+  padding: 3px 14px;
+  border: 1px solid var(--main-color);
+  border-radius: 15px;
+  color: var(--main-color);
+}
+/* =========//section Skills ============= */
+
+/* ========= section Summary ============= */
+
+.summary-info {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.experience-list-main,
+.language-list {
+  list-style: none;
+}
+
+.experience-list-main li {
+  padding-left: 20px;
+  background-image: url("../assets/img/icon-star.png");
+  background-position: 0 4px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}
+
+.experience-list {
+  margin-left: 20px;
+}
+
+.main-education {
+  margin-left: 20px;
+}
+
+.language-list li {
+  padding-left: 20px;
+  background-image: url("../assets/img/icon-lang.png");
+  background-position: 0 4px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}
+/* ========= //section Summary ============= */
