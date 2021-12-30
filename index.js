@@ -3,6 +3,11 @@ const btnPrev = document.querySelector('#prev-btn');
 const btnNext = document.querySelector('#next-btn');
 const pagination = document.querySelector('#pagination');
 
+const modal = document.querySelector('.modal');
+const modalCloseButton = document.querySelector('.modal-close-button');
+const sertificatesContainer = document.querySelector('.sertificates-content');
+const modalDialog = document.querySelector('.modal-dialog');
+
 for (let i = 0; i < slides.length; i++) {
   const elemPagination = document.createElement('span');
   elemPagination.classList.add('circle');
@@ -52,6 +57,22 @@ pagination.addEventListener('click', e => {
   if (e.target.classList.contains('circle')) {
     showActiveSlide(e.target.dataset.id);
   }
+});
+
+function toggleModal() {
+  modal.classList.toggle('is-open');
+}
+
+sertificatesContainer.addEventListener('click', e => {
+  if (e.target.closest('img')) {
+    modalDialog.style.backgroundImage = '';
+    modalDialog.style.backgroundImage = `url(${e.target.closest('img').getAttribute('src')})`;
+    toggleModal();
+  }
+});
+
+modalCloseButton.addEventListener('click', () => {
+  toggleModal();
 });
 
 showActiveSlide(currentSlide);
