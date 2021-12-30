@@ -2,47 +2,321 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganzhinova CV</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a3c0b9fd88.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="index.js" defer></script>
 </head>
 
 <body>
-    <header class="header container">
-        <div class="photo">
-            <img class="ava-photo" src="img/ava-circle.png" alt="avatar" width="200" height="auto">
+  <header>
+    <div class="container header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
+          <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sertificates">Sertificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#profile">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="profile" id="profile">
+        <div class="profile-block profile-img">
+          <img src="assets/img/ava-circle.webp" alt="avatar" width="200">
         </div>
-        <div class="contacts">
-            <h1>Tatiana Ganzhinova</h1>
-            <p><i class="fas fa-mobile-alt icon"></i>&nbsp;&nbsp;tel.: +7 (950) XXX-XX-XX</p>
-            <p><i class="far fa-envelope icon"></i>&nbsp;&nbsp;email: ganzhinovat@yandex.ru</p>
-            <p><i class="fab fa-github icon"></i>&nbsp;&nbsp;Github: <a href="https://github.com/PesukarhuTG"
-                    target="_blank">pesukarhutg</a>&nbsp;&nbsp;|&nbsp;&nbsp;<i
-                    class="fab fa-behance-square icon"></i>&nbsp;&nbsp;Behance: <a
-                    href="https://www.behance.net/ganzhinovat" target="_blank">ganzhinovat</a></p>
-        </div>
-    </header>
-    <main class="main container">
-        <div class="skills">
-            <h2>&nbsp;Skills</h2>
-            <ul class="skills-list">
-                <li>HTML / CSS</li>
-                <li>JavaSrcipt</li>
-                <li>Responsive / Adaptive layouts</li>
-                <li>Frameworks and Libraries: JQuery, React (in progress)</li>
-                <li>Git/ GitHub</li>
-                <li>Module Bundlers: Webpack</li>
-                <li>CMS: WordPress, Bitrix24</li>
-                <li>Design programs: Photoshop, Illustrator, Figma</li>
-                <li>Web development tools: VSCode, Adobe Dreamweaver, Notepad++</li>
-                <li>Email tools: GetResponse, Mailchimp, Bitrix24, Joomla, Unisender</li>
-                <li>Other: Agile/Kanban/Scrum, advanced Windows user, 1C as user, SAP as user</li>
+        <div class="profile-block profile-text">
+          <h1>Tatiana Ganzhinova</h1>
+          <span class="position">Junior frontend developer</span>
+          <div class="profile-contacts">
+            <ul class="profile-list">
+              <li class="profile-item"><b>Location:</b> Russia, Saint-Petersburg</li>
+              <li class="profile-item"><b>Phone:</b> +7 (950) XXX-XX-XX</li>
+              <li class="profile-item"><b>Email:</b> <a class="profile-link" href="mailto:ganzhinovat@yandex.ru"
+                  title="ganzhinovat@yandex.ru">ganzhinovat@yandex.ru</a></li>
             </ul>
+            <ul class="profile-list">
+              <li class="profile-item"><b>GitHub:</b> <a class="profile-link" href="https://github.com/PesukarhuTG"
+                  target="_blank">@PesukarhuTG</a></li>
+              <li class="profile-item"><b>Telegram:</b> @PesukarhuTG</li>
+              <li class="profile-item"><b>Discord:</b> PesukarhuTG#5084</li>
+            </ul>
+            <ul class="profile-list">
+              <li class="profile-item"><b>Codewars:</b>
+                <a class="profile-link" href="https://www.codewars.com/users/PesukarhuTG"
+                  target="_blank">pesukarhuTG</a>
+              </li>
+              <li class="profile-item"><b>LinkedIn:</b>
+                <a class="profile-link" href="https://www.linkedin.com/in/tatiana-ganzhinova-5848111b4/"
+                  target="_blank">tatiana_ganzhinova</a>
+              </li>
+              <li class="profile-item"><b>Behance:</b>
+                <a class="profile-link" href="https://www.behance.net/ganzhinovat" target="_blank">
+                  ganzhinovat</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </main>
+      </section>
+      <div class="main-container">
+        <section class="skills" id="skills">
+          <div class="skills-set">
+            <h2 class="section-title">Technical skills</h2>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS/SASS</li>
+              <li>JavaScript</li>
+              <li>Responsive</li>
+              <li>Adaptive</li>
+              <li>Semantic html</li>
+            </ul>
+          </div>
+          <div class="skills-set">
+            <h2 class="section-title">Frameworks and Libraries</h2>
+            <ul class="skills-list">
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+          <div class="skills-set">
+            <h2 class="section-title">Tools</h2>
+            <ul class="skills-list">
+              <li>GIT</li>
+              <li>Github</li>
+              <li>VSCode</li>
+              <li>Notepad++</li>
+              <li>Webstorm</li>
+              <li>Dreamweaver</li>
+              <li>Webpack</li>
+            </ul>
+          </div>
+          <div class="skills-set">
+            <h2 class="section-title">CMS</h2>
+            <ul class="skills-list">
+              <li>WordPress</li>
+              <li>Bitrix24</li>
+            </ul>
+          </div>
+          <div class="skills-set">
+            <h2 class="section-title">Email tools</h2>
+            <ul class="skills-list">
+              <li>GetResponse</li>
+              <li>Mailchimp</li>
+              <li>Bitrix24</li>
+              <li>Joomla</li>
+              <li>Unisender</li>
+            </ul>
+          </div>
+          <div class="skills-set">
+            <h2 class="section-title">Design programs</h2>
+            <ul class="skills-list">
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="skills-set">
+            <h2 class="section-title">Other technical skills</h2>
+            <ul class="skills-list">
+              <li>Agile</li>
+              <li>Kanban</li>
+              <li>Scrum</li>
+              <li>Advanced Windows user</li>
+              <li>Good Excel knowledge</li>
+              <li>1C as user</li>
+              <li>SAP as user</li>
+            </ul>
+          </div>
+        </section>
+        <div class="summary-info">
+          <section class="summary skills-set" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>For last 2 year I was working as HTML/CSS-Editor and as Web-designer. My passion to work with
+              web site started from delegation to look after the web page. I started to learn how it
+              works. I studied HTML/CSS/JS all by myself. Now I’m into the JavaScript (React in progress)
+              and on my way to become a stronger frontend developer.</p>
+          </section>
+          <section class="experience skills-set" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <ul class="experience-list-main">
+              <li><b>since 2019:</b> Junior front-end developer (freelance)</li>
+              <li><b>since 2018:</b> Web-designer / Html-css editor</li>
+            </ul>
+          </section>
+          <section class="education skills-set" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <h3 class="paragraph-title">2021 - now</h3>
+            <ul class="experience-list">
+              <li>RSSchool: "JavaScript/Front-end. Stage 0" - <i>in progress</i></li>
+              <li>Udemy: "JavaScript + React" - <i>in progress</i></li>
+            </ul>
+
+            <h3 class="paragraph-title">2020 Online-education</h3>
+            <ul class="experience-list">
+              <li>Udemy ("JS course")</li>
+              <li>Netology ("HTML&CSS" course)</li>
+              <li>HtmlAcademy ("Adaptive layout: grid or flex" course)</li>
+              <li>GloAcademy (some intensives on JS)</li>
+            </ul>
+
+            <h3 class="paragraph-title">2018 - 2019</h3>
+            <ul class="experience-list">
+              <li>RSSchool: "JavaScript/Front-end. Stage 1" - completed</li>
+              <li>GloAcademy (some intensives on JS)</li>
+              <li>Online education: HtmlAcademy.ru, GeekBrains.ru, Codewars, CodecAcademy.com, Skillbox.ru
+              </li>
+            </ul>
+
+            <h3 class="paragraph-title">2018</h3>
+            <ul class="experience-list">
+              <li>LevelUP education center: "Junior front-end developer"</li>
+              <li>HtmlAcademy ("Introduction to web development" course)</li>
+            </ul>
+
+            <h3 class="paragraph-title">2012</h3>
+            <p class="main-education">Petrozavodsk State University / Economics. Finance and Credit.
+              Accounting</p>
+          </section>
+          <section class="languages skills-set" id="language">
+            <h2 class="section-title">Languages</h2>
+            <ul class="language-list">
+              <li>Russian - native speaker</li>
+              <li>English - A2 (Pre-intermediate)</li>
+              <li>Finnish - A2 (Pre-intermediate)</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <section class="code" id="code">
+        <h2 class="section-title">Code</h2>
+        <p><a class="code-link" href="https://www.codewars.com/kata/5715eaedb436cf5606000381"
+            title="code example">Codewars task «Sum of positive».</a><br />
+          Input: an array of numbers / Output: a sum of all of the positives ones</p>
+        <p>
+          <code>
+            <pre class="code-example"><br/>
+  const positiveSum = arr => {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+      if (arr[i] > 0) {
+      sum += arr[i];
+      }
+  }
+  return sum;
+  }
+            </pre>
+          </code>
+        </p>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="slider">
+          <div class="slides-wrapper">
+            <div class="slide">
+              <a class="project-pic" href="https://pesukarhutg.github.io/DeliveryFood/" target="_blank">
+                <img src="assets/img/task-delivery.webp" alt="project-preview" width="200">
+              </a>
+              <div class="project-description">
+                <h3>Food delivery service</h3>
+                <p>Skills: Flexbox, Animation, Keyframes, Swiper API,
+                  Fetch API, JSON, LocalStorage, adaptive and responsive design. Light and dark mode
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <a class="project-pic" href="https://pesukarhutg.github.io/course-pm/" target="_blank">
+                <img src="assets/img/task-PM360.webp" alt="project-preview" width="200">
+              </a>
+              <div class="project-description">
+                <h3>Promo education course «PM360»</h3>
+                <p>Skills: Flexbox, Animation, JQuery, slider, countdown, adaptive and responsive
+                  design. Interactive elements: creeping line, sliders, dropdown lists, highlighting
+                  elements on hover</p>
+              </div>
+            </div>
+            <div class="slide">
+              <a class="project-pic" href="https://pesukarhutg.github.io/battleship-game2/" target="_blank">
+                <img src="assets/img/task-buttleship.webp" alt="project-preview" width="200">
+              </a>
+              <div class="project-description">
+                <h3>Battleship game</h3>
+                <p>Description: a simple game version on pure JS. Added the ability to mark users hits
+                  by click on the battlefield. Have some fun!
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <a class="project-pic" href="https://pesukarhutg.github.io/cinema-search/" target="_blank">
+                <img src="assets/img/task-cinema.webp" alt="project-preview" width="200">
+              </a>
+              <div class="project-description">
+                <h3>Online cinema</h3>
+                <p>Skills: burger-menu, search, get data from API, watching trailes in the same page.
+                  Description: an educational project is based on API TMDB via Fetch
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <a class="project-pic" href="https://pesukarhutg.github.io/coffee/" target="_blank">
+                <img src="assets/img/task-coffee.webp" alt="project-preview" width="200">
+              </a>
+              <div class="project-description">
+                <h3>Promo Coffee time</h3>
+                <p>Description: create on Webflow website builder for using as theme on WordPress
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pagination" id="pagination"></div>
+          <button class="slider-btn slider-btn-prev" id="prev-btn">Prev</button>
+          <button class="slider-btn slider-btn-next" id="next-btn">Next</button>
+
+        </div>
+      </section>
+      <section class="sertificates" id="sertificates">
+        <h2 class="section-title">Sertificates</h2>
+        <div class="sertificates-content">
+          <img class="sertificate-item" src="assets/img/sert-021.jpg" alt="some pic" width="250">
+          <img class="sertificate-item" src="assets/img/sert-022.jpg" alt="some pic" width="250">
+          <img class="sertificate-item" src="assets/img/sert-023.jpg" alt="some pic" width="250">
+          <img class="sertificate-item" src="assets/img/sert-024.jpg" alt="some pic" width="250">
+          <img class="sertificate-item" src="assets/img/sert-025.jpg" alt="some pic" width="250">
+          <img class="sertificate-item" src="assets/img/sert-026.jpg" alt="some pic" width="250">
+        </div>
+      </section>
+    </div>
+    <div class="modal">
+      <div class="modal-dialog">
+        <button class="modal-close-button">
+          <img src="assets/img/close.svg" alt="close button">
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer">
+      <a class="footer-link" href="https://github.com/PesukarhuTG" target="_blank" title="PesukarhuTG">My
+        GitHub</a>
+      <span class="footer-year">2021</span>
+      <a href="https://rs.school/js/" target="_blank" title="Курс JavaScript/Front-end">
+        <img class="footer-logo" src="assets/img/logo-rss.svg" width="100" alt="logo RSS">
+      </a>
+    </div>
+  </footer>
+
 </body>
 
 </html>
