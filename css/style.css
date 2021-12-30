@@ -241,3 +241,20 @@ button {
   background-repeat: no-repeat;
 }
 /* ========= //section Summary ============= */
+/* ========= code example ===========*/
+.code-link {
+  text-decoration: underline;
+}
+
+.code-link:hover {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.code-example {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+/* ======== //code example ==========*/
