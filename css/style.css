@@ -1,7 +1,99 @@
 @import "fonts.css";
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+:root {
+  --main-color: #fff700;
+  --contrast-color: #252525;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Inter", "Verdana", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background: var(--contrast-color);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ========================= HEADER ==================================*/
+.header {
+  align-items: flex-end;
+  background: var(--main-color);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 15px;
+  font-weight: 700;
+  color: var(--contrast-color);
+  transition: 0.3s;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 98%;
+  height: 2px;
+  background-color: var(--contrast-color);
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(0.8);
+}
+/* ========================= //HEADER ==================================*/
