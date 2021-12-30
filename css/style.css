@@ -376,3 +376,27 @@ button {
 }
 /* ====== //sertificates ======= */
 /* ========================= //MAIN ==================================*/
+
+/* ========================= FOOTER ==================================*/
+.footer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--main-color);
+}
+
+.footer-link,
+.footer-year {
+  font-weight: 700;
+  color: var(--contrast-color);
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  display: block;
+}
+/* ========================= //FOOTER ==================================*/
