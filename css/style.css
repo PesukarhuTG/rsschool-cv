@@ -452,3 +452,72 @@ button {
   background-color: transparent;
 }
 /* ========================= //MODAL ==================================*/
+
+@media (max-width: 1350px) {
+  .slider-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 1060px) {
+  .profile-block {
+    flex-basis: 50%;
+  }
+
+  .profile-contacts {
+    flex-direction: column;
+  }
+
+  .skills {
+    width: 100%;
+    border-right: 0;
+    margin-right: 0;
+  }
+
+  .summary-info {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 890px) {
+  .nav-list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: none;
+  }
+
+  .profile {
+    flex-direction: column;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide {
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 360px;
+    text-align: center;
+  }
+
+  .project-pic,
+  .project-description {
+    width: 100%;
+  }
+
+  .pagination {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .code-example {
+    font-size: 12px;
+  }
+}
