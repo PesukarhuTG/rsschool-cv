@@ -88,8 +88,11 @@ button {
 
 /* ========================= HEADER ==================================*/
 .header {
-  align-items: flex-end;
   background: var(--main-color);
+}
+
+.container-header {
+  align-items: flex-end;
 }
 
 .nav-list {
@@ -234,6 +237,7 @@ button {
 }
 
 .language-list li {
+  margin-bottom: 10px;
   padding-left: 20px;
   background-image: url("../assets/img/icon-lang.png");
   background-position: 0 4px;
@@ -388,11 +392,14 @@ button {
 
 /* ========================= FOOTER ==================================*/
 .footer {
+  background-color: var(--main-color);
+}
+
+.container-footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: var(--main-color);
 }
 
 .footer-link,
