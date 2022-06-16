@@ -59,6 +59,15 @@ h1 {
   opacity: 0.2;
 }
 
+.section-subtitle {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.achievements-paragraph {
+ margin-bottom: 20px;
+}
+
 .paragraph-title {
   margin-top: 20px;
   margin-left: 20px;
@@ -213,6 +222,10 @@ button {
 .summary-info {
   width: 60%;
   margin-left: 20px;
+}
+
+.summary-paragraph {
+  margin-bottom: 10px;
 }
 
 .experience-list-main,
